@@ -1,99 +1,111 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Repeat Timer                              # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 443410415                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_icon                                  : assets/appicon512.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Repeat Timer                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_subtitle                              : Looping Reminder Alarm Clock
+app_price                                 : " "                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : | 
+  A simple yet powerful repeating timer to help you work and relax.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
+og_image                                  : assets/repeattimer_ogimage.jpg                    # The default open graph image
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+your_name                                 : Foobar Creative                                
+your_link                                 : https://foobarcreative.com                     
+your_city                                 : Adelaide, Australia                                
+email_address                             : support@repeattimer.app
+facebook_username                         : 
+instagram_username                        : 
+twitter_username                          : repeattimer
+github_username                           : 
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             : 
+tiktok_username                           : 
+# TODO: TikTok
 
-
+# Font Awesome v5 Icons used: https://fontawesome.com/v5/search
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
+  - title                                 : Simple Configuration
+    description                           : Easily set up your timer with duration and repeat count. Leave the app open to see the countdown, or close it and receive notifications for each repetition.
+    fontawesome_icon_name                 : cog
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Home & Lock Screen Widgets
+    description                           : Access your timers directly from your Home Screen or Lock Screen with convenient widgets that show your active timers.
+    fontawesome_icon_name                 : mobile-screen
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Siri & Shortcuts Support
+    description                           : Control your timers using Siri voice commands or create custom shortcuts for your favorite timer configurations.
+    fontawesome_icon_name                 : robot
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Quick Entry Options
+    description                           : Start timers quickly with common preset options, perfect for when you need to time something in a hurry.
+    fontawesome_icon_name                 : bolt
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Background Notifications
+    description                           : Receive notifications for each timer repetition, even when the app is closed, so you can continue with other tasks.
+    fontawesome_icon_name                 : bell
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Apple Watch Support
+    description                           : Full Apple Watch companion app with dynamic complications, letting you control timers right from your wrist.
+    fontawesome_icon_name                 : hand-sparkles
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : Perfect for Cooking
+    description                           : Set timers to remind you when to turn food, check doneness, or move to the next cooking step.
+    fontawesome_icon_name                 : utensils
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Work & Study Breaks
+    description                           : Stay productive with planned breaks. Get reminders to stand, stretch, or take your eyes off the screen.
+    fontawesome_icon_name                 : briefcase
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Health & Wellness
+    description                           : Stay hydrated and active with regular reminders to drink water or take short exercise breaks.
+    fontawesome_icon_name                 : heart
 
+  - title                                 : Plant Care
+    description                           : Keep your plants healthy with regular watering reminders, perfect for maintaining consistent care schedules.
+    fontawesome_icon_name                 : leaf
 
+  - title                                 : Screen Time Management
+    description                           : Reduce eye strain with regular reminders to look away from your screen and take short breaks.
+    fontawesome_icon_name                 : desktop
+
+  - title                                 : Customizable Alerts
+    description                           : Choose from different notification sounds and customize how you want to be reminded.
+    fontawesome_icon_name                 : volume-high
+
+# Style
+default_primary                           : "#FABE4D"
+dark_primary                              : "#F1A006"
+accent                                    : "#FF9800"
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
+topbar_color                              : "#F1A006"
+topbar_transparency                       : 0.4
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image                               : assets/background-yellow-gradient.jpg                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#000000"
+cover_overlay_transparency                : 0.1
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : yellow                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : dark_primary #  "#1d63ea"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -102,13 +114,14 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
+feature_icons_foreground_color            : "#FABE4D"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
+
 
 
 
@@ -135,6 +148,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+include:
+  - ".well-known"
 
 collections:
   pages:
