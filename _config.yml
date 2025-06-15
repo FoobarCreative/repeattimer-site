@@ -12,7 +12,7 @@ presskit_download_link                    :                                     
 
 app_icon                                  : assets/appicon512.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Repeat Timer                               # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_subtitle                              : Looping Reminder Alarm Clock
+app_subtitle                              : Looping Alarms for iPhone, iPad and Apple Watch
 app_price                                 : " "                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : | 
   A simple yet powerful repeating timer to help you work and relax.
