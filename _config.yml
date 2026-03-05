@@ -108,7 +108,7 @@ device_color                              : yellow                              
 
 body_background_color                     : "#ffffff"
 
-link_color                                : dark_primary #  "#1d63ea"
+link_color                                : "#F1A006"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
