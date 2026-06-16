@@ -20,6 +20,7 @@ app_price                                 : " "                                 
 app_description                           : | 
   A simple yet powerful repeating timer to help you work and relax.
 
+app_category                              : UtilitiesApplication                      # Schema.org applicationCategory for structured data (e.g. UtilitiesApplication, MultimediaApplication, DesignApplication, LifestyleApplication, BrowserApplication).
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 og_image                                  : assets/repeattimer_ogimage.png                    # The default open graph image
 
